@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
+import style from './styles/main.scss';
 import App from './components/App.jsx';
 
 const render = Component => {
   ReactDOM.render(
     <AppContainer>
-    <Component />
+      <Component />
     </AppContainer>,
     document.getElementById('root')
   )
