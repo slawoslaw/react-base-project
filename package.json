@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "webpack --progress --profile --bail -p",
     "start": "webpack-dev-server --hotOnly",
     "test": "BABEL_ENV=test jest",
     "lint": "eslint --ext .jsx --ext .js --ignore-pattern node_modules/ ."
