@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './src/index.html',
@@ -13,11 +12,6 @@ module.exports = {
     'react-hot-loader/patch',
     './src/index.js'
   ],
-  devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-    hot: true
-  },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -60,5 +54,5 @@ module.exports = {
       path.join(__dirname, 'src')
     ],
   },
-  plugins: [HtmlWebpackPluginConfig, new webpack.HotModuleReplacementPlugin()]
+  plugins: [HtmlWebpackPluginConfig]
 }
