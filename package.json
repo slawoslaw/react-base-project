@@ -9,7 +9,7 @@
     "build": "webpack --progress --profile --bail -p --config webpack.prod.js",
     "start": "webpack-dev-server --hotOnly --config webpack.dev.js",
     "test": "BABEL_ENV=test jest",
-    "lint": "eslint --ext .jsx --ext .js --ignore-pattern node_modules/ ."
+    "lint": "eslint --ext .jsx --ext .js --ignore-pattern node_modules/ --ignore-pattern dist/ ."
   },
   "dependencies": {
     "react": "^15.6.1",
