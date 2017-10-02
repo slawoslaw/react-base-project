@@ -1,1 +1,14 @@
-$gray: #ccc;
+@import 'colors';
+
+$body-color: $maximum-red;
+$body-bg-color: $glitter;
+
+$a-color: $ochre;
+$a-color-hover: darken($a-color, 20%);
+
+$box-color: $ochre;
+$box-bg-color: $peach-orange;
+$box-border-color: $ochre;
+$box-shadow-color: $light-steel-blue;
+$box-title-color: $peach-orange;
+$box-title-bg-color: $ochre;

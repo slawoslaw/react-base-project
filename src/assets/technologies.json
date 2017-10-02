@@ -1,0 +1,34 @@
+[
+  {
+    "name": "React",
+    "repo": "facebook/react"
+  },
+  {
+    "name": "Axios",
+    "repo": "axios/axios"
+  },
+  {
+    "name": "Webpack",
+    "repo": "webpack/webpack"
+  },
+  {
+    "name": "Babel",
+    "repo": "babel/babel"
+  },
+  {
+    "name": "Jest",
+    "repo": "facebook/jest"
+  },
+  {
+    "name": "Enzyme",
+    "repo": "airbnb/enzyme"
+  },
+  {
+    "name": "Node Sass",
+    "repo": "sass/node-sass"
+  },
+  {
+    "name": "ESLint",
+    "repo": "eslint/eslint"
+  }
+]

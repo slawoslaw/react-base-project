@@ -1,5 +1,12 @@
-@import 'variables.scss';
+@import 'variables';
+@import 'components/app';
+@import 'components/box';
+@import 'components/form';
 
-body {
-  background-color: $gray;
+a {
+  color: $a-color;
+
+  &:hover, &:focus {
+    color: $a-color-hover;
+  }
 }

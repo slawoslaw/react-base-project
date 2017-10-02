@@ -12,6 +12,7 @@
     "lint": "eslint --ext .jsx --ext .js --ignore-pattern node_modules/ --ignore-pattern dist/ ."
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
