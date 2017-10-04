@@ -1,16 +1,13 @@
 import axios from 'axios';
 
-const github = {
-  link: function(repo) {
-    return `https://github.com/${repo}`;
-  },
-  apiLink: function(repo) {
-    return `https://api.github.com/repos/${repo}`;
-  },
-  fetchData: function(repo) {
-    console.log('fetchData', this.apiLink(repo));
-    return axios.get(this.apiLink(repo));
-  }
+export function Link(repo) {
+  return `https://github.com/${repo}`;
 };
 
-export default github;
+export function ApiLink(repo) {
+  return `https://api.github.com/repos/${repo}`;
+};
+
+export function FetchData(repo) {
+  return axios.get(ApiLink(repo));
+};

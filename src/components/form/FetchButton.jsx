@@ -1,5 +1,5 @@
 import React from 'react';
-import github from '../../services/github';
+import {FetchData} from '../../services/github';
 
 export default class FetchButton extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ export default class FetchButton extends React.Component {
     if (!this.state.fetched && !this.state.inProgress) {
       this.setState({inProgress: true});
 
-      github.fetchData(this.props.repo)
+      FetchData(this.props.repo)
         .then((response) => {
           this.setState({
             fetched: true,
