@@ -3,6 +3,7 @@ import React from 'react';
 export default class FetchButton extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       fetched: false,
       inProgress: false
