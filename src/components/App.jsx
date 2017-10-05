@@ -5,12 +5,16 @@ import technologies from '../assets/technologies.json';
 import {TechnologiesParser} from '../services/technologies';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.items = TechnologiesParser(technologies)
+  }
+
   render() {
-    const items = TechnologiesParser(technologies);
     return (
-      <div style={{textAlign: 'center'}}>
+      <div className="app">
         <Hello name="Jarek" />
-        <BoxList items={items} />
+        <BoxList items={this.items} />
       </div>);
   }
 }

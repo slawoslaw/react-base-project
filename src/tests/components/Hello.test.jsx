@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount, shallow } from 'enzyme';
 
-import Hello from './Hello';
+import Hello from '../../components/Hello';
 
 describe('Hello', () => {
   it('renders without crashing', () => {
