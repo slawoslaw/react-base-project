@@ -14,9 +14,7 @@ describe('App', () => {
       const app = shallow(<App />);
 
       expect(app.find('.app')).toHaveLength(1);
-      expect(app.find('Hello')).toHaveLength(1);
       expect(app.find('BoxList')).toHaveLength(1);
     });
   });
 });
-
