@@ -1,7 +1,9 @@
 .fetch-button {
   font-size: 14px;
-  box-shadow: 0;
-  border: none;
+  box-shadow: none;
   padding: 6px 12px;
   cursor: pointer;
+  color: $fetch-button-color;
+  background-color: $fetch-button-bg-color;
+  border: 1px solid $fetch-button-border-color;
 }
