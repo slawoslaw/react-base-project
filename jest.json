@@ -1,0 +1,6 @@
+{
+  "setupTestFrameworkScriptFile": "./src/tests/setup.js",
+  "setupFiles": [
+    "raf/polyfill"
+  ]
+}

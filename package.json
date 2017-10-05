@@ -8,7 +8,7 @@
   "scripts": {
     "build": "webpack --progress --profile --bail -p --config webpack.prod.js",
     "start": "webpack-dev-server --hotOnly --config webpack.dev.js",
-    "test": "BABEL_ENV=test jest --setupTestFrameworkScriptFile ./src/tests/setup.js",
+    "test": "BABEL_ENV=test jest --config ./jest.json",
     "lint": "eslint --ext .jsx --ext .js --ignore-pattern node_modules/ --ignore-pattern dist/ ."
   },
   "dependencies": {
