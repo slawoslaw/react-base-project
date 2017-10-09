@@ -1,4 +1,9 @@
 {
+  "coveragePathIgnorePatterns": [
+    "dist",
+    "node_modules",
+    "test"
+  ],
   "setupTestFrameworkScriptFile": "./test/setup.js",
   "setupFiles": [
     "raf/polyfill"
