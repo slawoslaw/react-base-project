@@ -1,21 +1,10 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
-const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: './src/index.html',
-  filename: 'index.html',
-  inject: 'body'
-});
 
 module.exports = {
   entry: [
     'react-hot-loader/patch',
     './src/index.js'
   ],
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  },
   module: {
     loaders: [
       {
@@ -49,6 +38,5 @@ module.exports = {
       'node_modules',
       path.join(__dirname, 'src')
     ],
-  },
-  plugins: [HtmlWebpackPluginConfig]
+  }
 }
