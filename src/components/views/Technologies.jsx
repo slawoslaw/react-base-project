@@ -1,5 +1,5 @@
 import React from 'react';
-import BoxList from '../box/BoxList.jsx';
+import BoxList from '../box/BoxList';
 import technologies from '../../assets/technologies.json';
 import { TechnologiesParser } from '../../services/technologies';
 

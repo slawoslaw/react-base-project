@@ -1,5 +1,5 @@
 import React from 'react';
-import Box from './Box.jsx';
+import Box from './Box';
 
 export default class BoxList extends React.Component {
   constructor(props) {

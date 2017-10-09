@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { mount, shallow } from 'enzyme';
 
-import App from '../../src/components/App.jsx';
+import App from '../../src/components/App';
 
 describe('App', () => {
   it('renders without crashing', () => {

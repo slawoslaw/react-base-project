@@ -1,6 +1,6 @@
 import React from 'react';
 import {FetchData} from '../../services/github';
-import FetchButton from '../form/FetchButton.jsx';
+import FetchButton from '../form/FetchButton';
 
 export default class RepoInfo extends React.Component {
   constructor(props) {

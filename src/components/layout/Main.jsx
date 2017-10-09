@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from '../views/Home.jsx';
-import Technologies from '../views/Technologies.jsx';
+import Home from '../views/Home';
+import Technologies from '../views/Technologies';
 
 export default class Main extends React.Component {
   render() {
