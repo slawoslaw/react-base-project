@@ -1,4 +1,4 @@
-import {Link, ApiLink, FetchData} from '../services/github';
+import {Link, ApiLink, FetchData} from '../../services/github';
 
 const repo = 'facebook/react';
 
@@ -20,5 +20,4 @@ describe('Github service', () => {
       expect(FetchData(repo).constructor).toEqual(Promise);
     });
   });
-
 });

@@ -1,0 +1,27 @@
+nav.main-menu {
+  background-color: $main-menu-bg-color;
+  margin-bottom: 30px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      font-size: 24px;
+
+      a {
+        display: block;
+        color: $main-menu-color;
+        text-decoration: none;
+        background-color: $main-menu-bg-color;
+        padding: 20px 10px;
+
+        &:hover, &.active {
+          color: $main-menu-color-hover;
+          background-color: $main-menu-bg-color-hover;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from './github';
+import { Link } from './github';
 import RepoInfo from '../components/git/RepoInfo.jsx';
 
 export function TechnologiesParser(list) {
