@@ -1,4 +1,4 @@
-import {Link, ApiLink, FetchData} from '../../services/github';
+import {Link, ApiLink, FetchData} from '../../src/services/github';
 
 const repo = 'facebook/react';
 

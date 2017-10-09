@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount, shallow } from 'enzyme';
 
-import BoxList from '../../../components/box/BoxList';
+import BoxList from '../../../src/components/box/BoxList';
 
 const items = [
   {

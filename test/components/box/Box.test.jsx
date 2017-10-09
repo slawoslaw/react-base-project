@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount, shallow } from 'enzyme';
 
-import Box from '../../../components/box/Box';
+import Box from '../../../src/components/box/Box';
 
 describe('Box', () => {
   it('renders without crashing', () => {
